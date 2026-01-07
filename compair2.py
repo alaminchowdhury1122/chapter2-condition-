@@ -4,7 +4,9 @@ y = int (input("what's y? "))
 
 if x < y: 
     print("x is less then y")
-    
-else: 
-    print("y is bigger")
-    
+
+elif x > y: 
+    print("x is greater then Y ")
+
+elif x == y: 
+    print("x is equal to y")
