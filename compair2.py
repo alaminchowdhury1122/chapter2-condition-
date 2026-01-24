@@ -2,11 +2,8 @@ x = int (input("what's X? "))
 y = int (input("what's y? "))
 
 
-if x < y: 
-    print("x is less then y")
+if x < y or x > y:
+    print("x is not qual to y")
 
-elif x > y: 
-    print("x is greater then Y ")
-
-elif x == y: 
+else: 
     print("x is equal to y")
